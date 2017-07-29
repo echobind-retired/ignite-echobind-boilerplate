@@ -132,6 +132,17 @@ async function install(context) {
 
     // example of another plugin you could install
     // await system.spawn(`ignite add i18n ${debugFlag}`, { stdio: 'inherit' })
+    // if (answers['vector-icons'] === 'react-native-vector-icons') {
+    //   await system.spawn(`ignite add vector-icons ${debugFlag}`, {
+    //     stdio: 'inherit'
+    //   });
+    // }
+
+    // if (answers['i18n'] === 'react-native-i18n') {
+    //   await system.spawn(`ignite add i18n ${debugFlag}`, {
+    //     stdio: 'inherit'
+    //   });
+    // }
   } catch (e) {
     ignite.log(e);
     throw e;
