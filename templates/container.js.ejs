@@ -1,0 +1,15 @@
+import React, { Component } from 'react';
+import { Text, View } from 'react-native';
+
+// Styles
+import styles from './styles';
+
+export default class <%= props.name %> extends Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <Text>Such a beautiful <%= props.name %> Container.</Text>
+      </View>
+    );
+  }
+}

@@ -1,3 +1,3 @@
 {
-  "generators": ["component"]
+  "generators": ["component", "container"]
 }
