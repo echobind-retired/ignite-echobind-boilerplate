@@ -4,7 +4,7 @@ import { Text, View } from 'react-native';
 // Styles
 import styles from './styles';
 
-export default class <%= props.name %> extends Component {
+class <%= props.name %> extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -13,3 +13,5 @@ export default class <%= props.name %> extends Component {
     );
   }
 }
+
+export default <%= props.name %>

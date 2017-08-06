@@ -6,7 +6,7 @@ import renderer from 'react-test-renderer';
 describe('<%= props.name %>', () => {
   describe('default render', () => {
     it('renders correctly', () => {
-      const tree = renderer.create(<%= props.name />).toJSON();
+      const tree = renderer.create(<<%= props.name %>/>).toJSON();
       expect(tree).toMatchSnapshot();
     });
   });
