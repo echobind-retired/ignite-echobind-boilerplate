@@ -92,7 +92,8 @@ async function install(context) {
   const templates = [
     { template: 'index.js.ejs', target: 'index.ios.js' },
     { template: 'index.js.ejs', target: 'index.android.js' },
-    { template: 'ignite/ignite.json', target: 'ignite/ignite.json' }
+    { template: 'ignite/ignite.json', target: 'ignite/ignite.json' },
+    { template: '.eslintrc.js.ejs', target: '.eslintrc.js' }
   ];
   await ignite.copyBatch(
     context,

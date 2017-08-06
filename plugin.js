@@ -41,6 +41,15 @@ const add = async function(context) {
     dev: true,
     version: '^4.1.0'
   });
+  await ignite.addModule('babel-eslint', { dev: true, version: '^7.2.3' });
+  await ignite.addModule('eslint-plugin-react', {
+    dev: true,
+    version: '^7.1.0'
+  });
+  await ignite.addModule('eslint-plugin-react-native', {
+    dev: true,
+    version: '^2.3.2'
+  });
 
   // Example of copying templates/EchobindBoilerplate to App/EchobindBoilerplate
   // if (!filesystem.exists(`${APP_PATH}/App/EchobindBoilerplate`)) {
